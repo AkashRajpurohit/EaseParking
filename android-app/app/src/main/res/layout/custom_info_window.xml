@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:padding="4dp"
+            android:text="Name :"
+            android:textColor="#000"
+            android:textSize="16dp"
+            />
+
+        <EditText
+            android:id="@+id/info_window_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_username_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Enter your name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textSize="16dp"
+            android:padding="4dp"
+            android:textColorHint="#706e6e" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:padding="4dp"
+            android:text="Booking ID :"
+            android:textColor="#000"
+            android:textSize="16dp"
+            />
+
+        <EditText
+            android:id="@+id/info_window_booking_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_fiber_pin_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="4dp"
+            android:textColorHint="#706e6e"
+            android:textSize="16dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:padding="4dp"
+            android:text="Your Number Plate :"
+            android:textColor="#000"
+            android:textSize="16dp"
+            />
+
+        <EditText
+            android:id="@+id/info_window_no_plate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_directions_car_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Number Plate"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="4dp"
+            android:textColorHint="#706e6e"
+            android:textSize="16dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:padding="4dp"
+            android:text="Entering Time :"
+            android:textColor="#000"
+            android:textSize="16dp"
+            />
+
+        <EditText
+            android:id="@+id/info_window_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_time_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="HR:MM"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="4dp"
+            android:textColorHint="#706e6e"
+            android:textSize="16dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+    </LinearLayout>
+</LinearLayout>

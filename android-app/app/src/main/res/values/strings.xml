@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EaSeParKING</string>
+    <string name="title_activity_contractor">EaSeParKING</string>
+    <string name="state_prompt">Choose a State</string>
+    <string name="male">Male</string>
+
+    <string-array name="state_arrays">
+        <item>Arunachal Pradesh</item>
+        <item>Bihar</item>
+        <item>Chhatisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Maharashtra</item>
+        <item>Karnataka</item>
+        <item>Punjab</item>
+        <item>Tamil Nadu</item>
+    </string-array>
+</resources>

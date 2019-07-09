@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="206dp"
+        android:layout_height="247dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/round_borders"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:text="MAP TYPE"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/defaultmap"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/default1"
+                tools:layout_editor_absoluteX="135dp"
+                tools:layout_editor_absoluteY="113dp" />
+
+            <ImageButton
+                android:id="@+id/satellite_map"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/satelitte"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="113dp" />
+
+            <ImageButton
+                android:id="@+id/terrain_map"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/terrain"
+                tools:layout_editor_absoluteX="305dp"
+                tools:layout_editor_absoluteY="113dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:text="Default"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:text="Satellite"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:text="Terrain"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:text="MAP DETAILS"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:typeface="serif" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/normal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/default1"
+                tools:layout_editor_absoluteX="135dp"
+                tools:layout_editor_absoluteY="113dp" />
+
+            <ImageButton
+                android:id="@+id/parking_spot"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/slot"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="113dp" />
+
+            <ImageButton
+                android:id="@+id/shareSpotBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/transparent"
+                android:src="@drawable/alert" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:text="Default"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="1dp"
+                android:fontFamily="serif"
+                android:text="Parking Spot"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:fontFamily="serif"
+                android:text="Share A Spot"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/information"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_info_outline_black_24dp"/>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

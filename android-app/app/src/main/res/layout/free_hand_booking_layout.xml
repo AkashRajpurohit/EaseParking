@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/round_black_border">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:elevation="4dp"
+            android:text="Details of the Parking."
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/free_line_booking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.35"
+                android:background="@drawable/background_signup"
+                android:text="Book Now"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.75"
+                android:weightSum="1"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:padding="2dp"
+                    android:layout_weight="0.50"
+                    android:layout_marginLeft="15sp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.38"
+                        android:layout_height="wrap_content"
+                        android:text="Total Capacity:"
+                        android:textColor="#000"/>
+
+                    <TextView
+                        android:id="@+id/total_count"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.50"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="1"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:weightSum="1"
+                    android:layout_weight="0.50"
+                    android:layout_marginLeft="15sp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.38"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="Filled Count:"/>
+
+                    <TextView
+                        android:id="@+id/fill_count"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.50"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="Empty"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
